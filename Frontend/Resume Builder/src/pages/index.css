@@ -1,0 +1,27 @@
+/* Reusable animation */
+.fade-up {
+  animation: fadeUp 0.7s ease;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.empty {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cv-card {
+  opacity: 0; /* important for animation */
+  animation-fill-mode: forwards;
+}
+.cv-card:hover {
+  transform: translateY(-5px) scale(1.02);
+}
