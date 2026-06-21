@@ -93,7 +93,6 @@ function ViewCV() {
     doc.text(habits, 70, y);
   };
 
-  // ================= MINIMAL =================
   const minimalTemplate = (doc) => {
     let y = 20;
 
@@ -138,7 +137,6 @@ function ViewCV() {
     doc.line(20, y, 190, y);
     y += 10;
 
-    // Skills
     doc.setFont("helvetica", "bold");
     doc.setTextColor(...brown);
     doc.text("SKILLS", 20, y);
